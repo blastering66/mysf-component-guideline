@@ -16,8 +16,6 @@ yarn-error.log*
 
 # added by KodeFox
 /coverage
-/src/**/*.js
-/src/**/*.js.map
 
 # Xcode
 #
