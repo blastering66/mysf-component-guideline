@@ -19,6 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
@@ -47,14 +48,29 @@
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^5.3.19",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "@types/react-native": "^0.12.3",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-plugin-react-native-web": "^0.12.3",
     "eslint": "6.8.0",
-    "ignite-vector-icons": "^1.1.1"
+    "ignite-vector-icons": "^1.1.1",
+    "jest": "^26.1.0",
+    "typescript": "^3.9.6"
   },
   "rnpm": {
     "assets": [
       "./src/assets/fonts/"
+    ]
+  },
+  "jest": {
+    "preset": "react-native-web",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
     ]
   }
 }

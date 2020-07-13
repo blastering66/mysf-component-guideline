@@ -28,4 +28,5 @@ export default function Avatar(props: Props) {
       { img && <Image source={{ uri: img }} style={styles.img} /> }
     </View>
   );
+  // return null;
 }
