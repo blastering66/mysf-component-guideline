@@ -1,0 +1,33 @@
+import React from 'react';
+import { AppRegistry, StyleSheet, Text, View, ScrollView, TouchableOpacity, TextInput } from 'react-native';
+import ReactMarkdown from 'react-markdown';
+import _md from './getting_started.md';
+// import { Line } from 'SmartUI';
+import Garis from '../../components/Garis/Garis';
+
+class GettingScreen extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            source: null
+        }
+    }
+
+    componentDidMount() {
+        fetch(_md).then((response) => response.text()).then((text) => {
+            this.setState({ source: text })
+        })
+    }
+
+    render() {
+        const { source } = this.state;
+        return (
+            <View>
+                <Garis style={{width: '50%', height: 20, margin: 10}} />
+                <ReactMarkdown source={source} />
+            </View>
+        )
+    }
+}
+
+export default GettingScreen;

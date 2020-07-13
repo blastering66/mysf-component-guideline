@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "SmartUI": "git+https://github.com/blastering66/SmartUI.git",
     "ionicons": "^5.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -18,7 +19,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,14 +40,37 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.10.2",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^5.3.19",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "@types/react-native": "^0.12.3",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-plugin-react-native-web": "^0.12.3",
-    "ignite-vector-icons": "^1.1.1"
+    "eslint": "6.8.0",
+    "ignite-vector-icons": "^1.1.1",
+    "jest": "^26.1.0",
+    "typescript": "^3.9.6"
   },
   "rnpm": {
     "assets": [
       "./src/assets/fonts/"
+    ]
+  },
+  "jest": {
+    "preset": "react-native-web",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
     ]
   }
 }
