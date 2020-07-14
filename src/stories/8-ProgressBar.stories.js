@@ -5,7 +5,7 @@ import Avatar from '../components/Avatar';
 import DefaultView from './DefaultView';
 
 export default {
-  title: '8 - Progress Bar',
+  title: 'Progress Bar',
 };
 
 export const Default = () => (

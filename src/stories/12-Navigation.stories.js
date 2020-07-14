@@ -5,7 +5,7 @@ import Avatar from '../components/Avatar';
 import DefaultView from './DefaultView';
 
 export default {
-  title: '9c - Navigation',
+  title: 'Navigation',
 };
 
 export const TopBarAndActionBar = () => (

@@ -5,7 +5,7 @@ import Avatar from '../components/Avatar';
 import DefaultView from './DefaultView';
 
 export default {
-  title: '1 - Container',
+  title: 'Container',
 };
 
 // export const Text = () => <Button onClick={action('clicked')}>Hello Button</Button>;

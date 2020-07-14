@@ -5,7 +5,7 @@ import Avatar from '../components/Avatar';
 import DefaultView from './DefaultView';
 
 export default {
-  title: '2 - Button',
+  title: 'Button',
 };
 
 export const Default = () => (

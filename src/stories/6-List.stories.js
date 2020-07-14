@@ -5,7 +5,7 @@ import Avatar from '../components/Avatar';
 import DefaultView from './DefaultView';
 
 export default {
-  title: '6 - List',
+  title: 'List',
 };
 
 export const WithBorder = () => (

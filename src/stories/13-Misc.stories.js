@@ -5,7 +5,7 @@ import { Avatar as AvatarNya } from '../components/Avatar';
 import DefaultView from './DefaultView';
 
 export default {
-  title: '9d - Misc',
+  title: 'Misc',
 };
 
 export const Avatar = () => (
