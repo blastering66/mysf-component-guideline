@@ -1,9 +1,12 @@
+import { GRAY_900, GRAY_100, GRAY_020 } from "../../utils/BaseColors";
+
 export default {
   main: {
     flex: 1,
-    width: '100%',
-    height: '100%',
+    width: 'auto',
+    height: 'auto',
+    minHeight: 1000,
     padding: 10,
-    backgroundColor: 'white',
+    backgroundColor: GRAY_020,
   },
 };
