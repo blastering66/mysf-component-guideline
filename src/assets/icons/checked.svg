@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Other/Checked</title>
+    <defs>
+        <path d="M9.86338087,18 C9.58738092,18 9.32338097,17.8859988 9.13438101,17.6849966 L4.27138194,12.5059398 C3.89238201,12.1039354 3.91338201,11.4709285 4.31538193,11.0929244 C4.71838185,10.7149202 5.35138173,10.7349205 5.72838166,11.1369249 L9.85338087,15.5279729 L18.2613793,6.32587219 C18.6353792,5.91686771 19.2673791,5.88986741 19.675379,6.26187149 C20.0823789,6.63387556 20.1103789,7.26688249 19.738379,7.67388694 L10.6013807,17.6739964 C10.4143808,17.8799987 10.1483808,17.998 9.87038087,18 L9.86338087,18 Z" id="path-1"></path>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(-533.000000, -2468.000000)">
+            <g id="Group" transform="translate(529.000000, 2462.000000)">
+                <rect id="Rectangle-Copy-5" x="0" y="0" width="24" height="24"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="🎨-Icon-Сolor" fill="#000000" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

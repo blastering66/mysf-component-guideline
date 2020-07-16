@@ -6,10 +6,12 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "SmartfrenUIKit": "git+https://mysf-app@dev.azure.com/mysf-app/MySmartfren/_git/MySmartfrenUIKit#0.3.1",
     "ionicons": "^5.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
+    "react-native-svg": "^12.1.0",
     "react-native-vector-icons": "6.1.0",
     "react-native-web": "^0.12.3",
     "react-scripts": "3.4.1"
@@ -20,7 +22,7 @@
     "test": "react-scripts test",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
+    "storybook": "start-storybook -p 9009 -c .storybook watch-css -s ./src",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
@@ -42,6 +44,7 @@
     "@babel/core": "^7.10.2",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
     "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-info": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/preset-create-react-app": "^3.1.4",
@@ -52,23 +55,13 @@
     "babel-plugin-react-native-web": "^0.12.3",
     "eslint": "6.8.0",
     "ignite-vector-icons": "^1.1.1",
-    "jest": "^26.1.0",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "ts-loader": "^8.0.0",
     "typescript": "^3.9.6"
   },
   "rnpm": {
     "assets": [
       "./src/assets/fonts/"
-    ]
-  },
-  "jest": {
-    "preset": "react-native-web",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
     ]
   }
 }

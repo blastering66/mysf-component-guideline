@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/24/Arrow/Left</title>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(-867.000000, -400.000000)">
+            <g id="Group" transform="translate(864.000000, 396.000000)">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <path d="M20.712,11.2972735 L14.397,4.8982735 C14.009,4.5042735 13.374,4.5002735 12.983,4.8882735 C12.589,5.2762735 12.585,5.9092735 12.973,6.3022735 L17.608,10.9992735 L4,10.9992735 C3.447,10.9992735 3,11.4462735 3,11.9992735 C3,12.5522735 3.447,12.9992735 4,12.9992735 L17.608,12.9992735 L12.973,17.6972735 C12.585,18.0902735 12.589,18.7242735 12.983,19.1112735 C13.177,19.3042735 13.431,19.4002735 13.685,19.4002735 C13.942,19.4002735 14.201,19.3002735 14.397,19.1022735 L20.712,12.7012735 C21.096,12.3122735 21.096,11.6862735 20.712,11.2972735" id="Fill-1" fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.000137) scale(-1, 1) translate(-12.000000, -12.000137) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

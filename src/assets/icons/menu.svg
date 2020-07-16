@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/24/Menu</title>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(-340.000000, -504.000000)">
+            <g id="Group" transform="translate(336.000000, 500.000000)">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <path d="M19,17.15 C19.553,17.15 20,17.597 20,18.15 C20,18.703 19.553,19.15 19,19.15 L5,19.15 C4.447,19.15 4,18.703 4,18.15 C4,17.597 4.447,17.15 5,17.15 L19,17.15 Z M19,11.025 C19.553,11.025 20,11.472 20,12.025 C20,12.578 19.553,13.025 19,13.025 L5,13.025 C4.447,13.025 4,12.578 4,12.025 C4,11.472 4.447,11.025 5,11.025 L19,11.025 Z M19,4.9 C19.553,4.9 20,5.347 20,5.9 C20,6.453 19.553,6.9 19,6.9 L5,6.9 C4.447,6.9 4,6.453 4,5.9 C4,5.347 4.447,4.9 5,4.9 L19,4.9 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

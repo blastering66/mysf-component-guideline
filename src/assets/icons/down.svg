@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="7px" viewBox="0 0 14 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Other/Arrow/Cevron/down</title>
+    <defs>
+        <path d="M12.0000401,15 C11.7720358,15 11.5450316,14.9229944 11.3600281,14.7679833 L5.35991583,9.76762285 C4.93590789,9.4145974 4.87790681,8.78355192 5.23191343,8.35952135 C5.58492004,7.93549079 6.21493183,7.87848668 6.63993978,8.23151213 L12.0110403,12.7078348 L17.3731406,8.39252373 C17.8031487,8.04649879 18.4331605,8.11450369 18.779167,8.54453469 C19.1251734,8.97456569 19.0571722,9.60361103 18.6271641,9.95063604 L12.6270518,14.7789841 C12.4440484,14.9259947 12.2220442,15 12.0000401,15" id="path-1"></path>
+    </defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(-756.000000, -2565.000000)">
+            <g id="Group" transform="translate(751.000000, 2557.000000)">
+                <rect id="Rectangle-Copy-8" x="0" y="0" width="24" height="24"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="🎨-Icon-Сolor" fill="#000000" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/24/Chevron/Left</title>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(-783.000000, -400.000000)">
+            <g id="Group" transform="translate(776.000000, 396.000000)">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <path d="M8.5002735,20 C8.2462735,20 7.9922735,19.904 7.7982735,19.712 C7.4042735,19.324 7.4002735,18.69 7.7882735,18.298 L14.0022735,12 L7.7882735,5.702 C7.4002735,5.31 7.4042735,4.676 7.7982735,4.288 C8.1892735,3.9 8.8242735,3.904 9.2122735,4.298 L16.1192735,11.298 C16.5032735,11.687 16.5032735,12.313 16.1192735,12.702 L9.2122735,19.702 C9.0172735,19.9 8.7582735,20 8.5002735,20" id="Fill-1" fill="#000000" fill-rule="nonzero" transform="translate(11.953637, 11.999863) scale(-1, 1) translate(-11.953637, -11.999863) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,7 @@
 import React from 'react';
 import { AppRegistry, StyleSheet, Text, View, ScrollView, TouchableOpacity, TextInput } from 'react-native';
+// import { Counter } from 'SmartfrenUIKit';
+import Timeline from '../../components/Timeline';
 import ReactMarkdown from 'react-markdown';
 import _md from './text.md';
 
@@ -21,6 +23,8 @@ class TextScreen extends React.Component {
         const { source } = this.state;
         return (
             <View>
+                <Text>Test</Text>
+                <Timeline />
                 <ReactMarkdown source={source} />
             </View>
         )

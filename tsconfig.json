@@ -3,9 +3,10 @@
     "target": "esnext",
     "module": "esnext",
     "lib": [
-      "es6"
+      "es5", "es6", "es7", "es2017", "dom"
     ],
     "allowJs": true,
+    "sourceMap": true,
     "jsx": "react",
     "noEmit": true,
     "isolatedModules": true,
@@ -16,7 +17,16 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
   },
   "exclude": [
     "node_modules",
@@ -24,6 +34,7 @@
     "jest.config.js"
   ],
   "include": [
-    "src"
+    "src",
+    "node_modules/SmartfrenUIKit"
   ]
 }

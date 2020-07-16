@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/24/Search</title>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(-955.000000, -399.000000)">
+            <g id="Group" transform="translate(952.000000, 396.000000)">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <path d="M10.666,16.334 C7.542,16.334 5,13.792 5,10.667 C5,7.542 7.542,5 10.666,5 C13.791,5 16.333,7.542 16.333,10.667 C16.333,13.792 13.791,16.334 10.666,16.334 M20.707,19.293 L16.74,15.327 C17.734,14.034 18.333,12.421 18.333,10.667 C18.333,6.439 14.894,3 10.666,3 C6.438,3 3,6.439 3,10.667 C3,14.895 6.438,18.334 10.666,18.334 C12.42,18.334 14.033,17.735 15.326,16.741 L19.293,20.707 C19.488,20.902 19.744,21 20,21 C20.256,21 20.512,20.902 20.707,20.707 C21.098,20.316 21.098,19.684 20.707,19.293" id="Fill-1" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

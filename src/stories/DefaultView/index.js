@@ -4,7 +4,11 @@ import { View, ScrollView } from 'react-native';
 import styles from './style';
 
 export default function DefaultView({ children }) {
-  return <View style={styles.main}>{children}</View>;
+  return (
+    <ScrollView>
+      <View style={styles.main}>{children}</View>
+    </ScrollView>
+  );
 }
 
 DefaultView.defaultProps = {

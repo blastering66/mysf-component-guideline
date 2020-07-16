@@ -1,6 +1,17 @@
-import {StyleSheet} from 'react-native';
-import COLORS from './Colors';
-import DIMENS from './Dimens';
+import { StyleSheet } from 'react-native';
+import { BLACK, GRAY, WHITE } from './BaseColors';
+import { BORDERCOLOR } from './ComponentColors';
+
+import {
+  PP_SIZE,
+  PADDING_WRAPPER,
+  BADGE_SIZE,
+  BORDER_WIDTH,
+  BORDER_RADIUS_STATUS,
+  ICON_WRAPPER,
+  PADDING_SMALL,
+  ICON_SIZE,
+} from './Dimens';
 
 export default StyleSheet.create({
   wrapper_abs: {
@@ -22,40 +33,53 @@ export default StyleSheet.create({
     right: 0,
     left: 0,
   },
+  wrapper_abs_top_right: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+  },
+  fill: {
+    flex: 1
+  },
   wrapper_center: {
     alignItems: 'center',
     justifyContent: 'center',
   },
   wrapper_horizontal: {
     flexDirection: 'row',
-    padding: DIMENS.PADDING_WRAPPER,
+    padding: PADDING_WRAPPER,
   },
   wrapper_vertical: {
-    padding: DIMENS.PADDING_WRAPPER,
+    padding: PADDING_WRAPPER,
+  },
+  row: {
+    flexDirection: 'row',
   },
   regular: {
     fontFamily: 'TruenoRg',
-    color: COLORS.Black,
+    color: BLACK,
   },
   light: {
     fontFamily: 'TruenoLt',
-    color: COLORS.Black,
+    color: BLACK,
   },
   color_gray: {
-    color: COLORS.Gray,
+    color: GRAY,
   },
   container_pp: {
-    height: DIMENS.PP_SIZE,
-    width: DIMENS.PP_SIZE,
+    height: PP_SIZE,
+    width: PP_SIZE,
   },
   container_pp_oval: {
-    height: DIMENS.PP_SIZE,
-    width: DIMENS.PP_SIZE,
-    borderRadius: DIMENS.PP_SIZE / 2,
+    height: PP_SIZE,
+    width: PP_SIZE,
+    borderRadius: PP_SIZE / 2,
     overflow: 'hidden',
   },
   container_badge_abs: {
-    position: 'absolute', bottom: 10, right: -5
+    position: 'absolute',
+    bottom: 10,
+    right: -5,
   },
   container_badge: {
     backgroundColor: 'red',
@@ -66,7 +90,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 2,
-    borderColor: COLORS.White,
+    borderColor: WHITE,
   },
   container_bottom_right: {
     position: 'absolute',
@@ -74,8 +98,8 @@ export default StyleSheet.create({
     right: 0,
   },
   image_pp: {
-    height: DIMENS.PP_SIZE,
-    width: DIMENS.PP_SIZE,
+    height: PP_SIZE,
+    width: PP_SIZE,
   },
   container_pp_edit: {
     borderRadius: 7,
@@ -84,30 +108,78 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: COLORS.White,
+    borderColor: WHITE,
   },
   border_bottom: {
-    borderBottomWidth: DIMENS.BORDER_WIDTH,
-    borderBottomColor: COLORS.BorderColor,
+    borderBottomWidth: BORDER_WIDTH,
+    borderBottomColor: BORDERCOLOR,
   },
   bg_rounded_gray: {
-    borderRadius: DIMENS.BORDER_RADIUS_STATUS,
-    backgroundColor: COLORS.Black,
+    borderRadius: BORDER_RADIUS_STATUS,
+    backgroundColor: BLACK,
     opacity: 0.5,
-    paddingHorizontal: DIMENS.PADDING_SMALL,
+    paddingHorizontal: PADDING_SMALL,
     paddingVertical: 2,
   },
   icon_container: {
-    height: DIMENS.ICON_WRAPPER,
-    width: DIMENS.ICON_WRAPPER,
+    height: ICON_WRAPPER,
+    width: ICON_WRAPPER,
   },
   icon: {
-    height: DIMENS.ICON_SIZE,
-    width: DIMENS.ICON_SIZE,
+    height: ICON_SIZE,
+    width: ICON_SIZE,
   },
   badge: {
-    height: DIMENS.BADGE_SIZE,
-    width: DIMENS.BADGE_SIZE,
+    height: BADGE_SIZE,
+    width: BADGE_SIZE,
   },
-  shadow: {shadowOpacity: 0.25, shadowRadius: 5, shadowColor: 'black', shadowOffset: { height: 5, width: 5 }, elevation: 5},
+  roundedTabs: {
+    borderWidth: 1,
+    paddingHorizontal: 15,
+    paddingVertical: 8,
+    borderRadius: 16,
+    marginRight: 10,
+  },
+  roundedList: {
+    borderWidth: 1,
+    paddingHorizontal: 19,
+    paddingVertical: 19,
+    borderRadius: 10,
+    marginRight: 10,
+    maxHeight: 60,
+  },
+  noBorderList: {
+    paddingVertical: 19,
+    borderRadius: 10,
+    marginRight: 10,
+    maxHeight: 60,
+  },
+  borderBottomList: {
+    borderBottomWidth: 1,
+    paddingVertical: 19,
+    borderRadius: 10,
+    marginRight: 10,
+    maxHeight: 60,
+  },
+  Tabs: {
+    borderBottomWidth: 1,
+    paddingHorizontal: 15,
+    paddingVertical: 8,
+    flex: 1,
+    alignItems: 'center',
+  },
+  TabNav: {
+    borderTopWidth: 1,
+    paddingHorizontal: 15,
+    paddingVertical: 8,
+    flex: 1,
+    alignItems: 'center',
+  },
+  shadow: {
+    shadowOpacity: 0.25,
+    shadowRadius: 5,
+    shadowColor: BLACK,
+    shadowOffset: { height: 5, width: 5 },
+    elevation: 5,
+  },
 });
