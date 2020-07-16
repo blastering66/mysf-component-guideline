@@ -81,7 +81,7 @@ export default function Switcher(props: Props) {
         onPress={() => (disabled ? null : setFirstSelected(!firstSelected))}
       >
         {firstSelected ? (
-          <View style={[styles.container_native, opacityStyle]}>
+          <View style={[styles.container_native, opacityStyle, style]}>
             <Switch
               disabled={true}
               value={true}
@@ -97,7 +97,7 @@ export default function Switcher(props: Props) {
             )}
           </View>
         ) : (
-          <View style={[styles.container_native, opacityStyle]}>
+          <View style={[styles.container_native, opacityStyle, style]}>
             <Switch
               disabled={true}
               value={false}
@@ -121,7 +121,7 @@ export default function Switcher(props: Props) {
         onPress={() => (disabled ? null : setFirstSelected(!firstSelected))}
       >
         {firstSelected ? (
-          <View style={[styles.container, opacityStyle]}>
+          <View style={[styles.container, opacityStyle, style]}>
             {forList ? (
               <Text style={styles.textLeftList}>{labelLeft}</Text>
             ) : (
@@ -133,7 +133,7 @@ export default function Switcher(props: Props) {
             <Text style={styles.textRight}>{labelLeft}</Text>
           </View>
         ) : (
-          <View style={[styles.container, opacityStyle]}>
+          <View style={[styles.container, opacityStyle, style]}>
             <View
               style={
                 styles.circle_red

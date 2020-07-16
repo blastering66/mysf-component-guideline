@@ -5,7 +5,6 @@ import { action } from '@storybook/addon-actions';
 import { Button } from '@storybook/react/demo';
 import Avatar from '../components/Avatar';
 import DefaultView from './DefaultView';
-import Swap from '../components/Swap';
 
 export default {
   title: 'Text',
@@ -21,6 +20,5 @@ export const Default = () => (
     <Text style={[{}, { fontSize: 30 }]}>Smartfren</Text>
     <Text style={{ fontWeight: 'bold', fontSize: 30  }}>Trueno</Text>
     <Text style={BaseStyle.light}>Light</Text>
-    <Swap />
   </DefaultView>
 )

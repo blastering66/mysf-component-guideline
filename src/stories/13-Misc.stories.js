@@ -5,6 +5,8 @@ import { Button } from '@storybook/react/demo';
 import Avatar from '../components/Avatar';
 import Tag from '../components/Tag';
 import Divider from '../components/Divider/Divider'
+import FlexRow from '../components/Flexrow'
+import Space from '../components/Space/Space'
 
 import DefaultView from './DefaultView';
 
@@ -35,7 +37,15 @@ export default {
 
 export const DefaultAvatar = () => (
   <DefaultView>
-    <Avatar img={'https://i.picsum.photos/id/568/200/300.jpg?hmac=vQmkZRQt1uS-LMo2VtIQ7fn08mmx8Fz3Yy3lql5wkzM'} />
+    <FlexRow>
+    <Avatar />
+    <Space />
+    <Avatar type={'male'} />
+    <Space />
+    <Avatar type={'female'} />
+    <Space />
+    <Avatar img={'https://i.picsum.photos/id/152/64/64.jpg?hmac=yln7fL6bBg-ZPUJTLA9-IiHs3EkZ5pCVvhZL6qXXyX8'} type={'female'} />
+  </FlexRow>
   </DefaultView>
 )
 
