@@ -1,8 +1,9 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
-import { Button } from '@storybook/react/demo';
+import { Text } from 'react-native';
+import Icons from '../components/Icons';
 import Avatar from '../components/Avatar';
 import DefaultView from './DefaultView';
+import { BLACK, RED, WHITE } from '../utils/BaseColors'
 
 export default {
   title: 'Icons',
@@ -10,6 +11,25 @@ export default {
 
 export const Default = () => (
   <DefaultView>
-    <Avatar img={'https://i.picsum.photos/id/568/200/300.jpg?hmac=vQmkZRQt1uS-LMo2VtIQ7fn08mmx8Fz3Yy3lql5wkzM'} />
+    <Text style={{ fontSize: 18, paddingBottom: 10 }}>Default Icons</Text>
+    <Icons name={'arrow-left'} size={24} color={BLACK} rotate />
+    <Icons
+      name={'arrow-right'}
+      size={20}
+      color={WHITE}
+      style={{
+        width: 24,
+        height: 24,
+        backgroundColor: RED,
+        borderRadius: 12,
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    />
+    <Icons name={'chevron-right'} size={24} color={BLACK} />
+    <Icons name={'eye-off'} size={24} color={RED} />
+    <Icons name={'travel'} size={24} color={BLACK} />
+    <Icons name={'down'} size={24} color={BLACK} />
+    <Icons name={'package'} size={24} color={BLACK} />
   </DefaultView>
 )

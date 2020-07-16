@@ -1,27 +1,33 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import { Button } from '@storybook/react/demo';
+import { Text, View, Image } from 'react-native';
 import Avatar from '../components/Avatar';
+import ButtonSmart from '../components/Button/ButtonSmart';
 import DefaultView from './DefaultView';
 
 export default {
   title: 'Button',
 };
 
-export const Default = () => (
-  <DefaultView>
-    <Avatar img={'https://i.picsum.photos/id/568/200/300.jpg?hmac=vQmkZRQt1uS-LMo2VtIQ7fn08mmx8Fz3Yy3lql5wkzM'} />
-  </DefaultView>
-)
-
 export const WithIcon = () => (
   <DefaultView>
-    <Avatar img={'https://i.picsum.photos/id/568/200/300.jpg?hmac=vQmkZRQt1uS-LMo2VtIQ7fn08mmx8Fz3Yy3lql5wkzM'} />
+    <Text style={{ fontSize: 18, paddingBottom: 10 }}>Button With Icon</Text>
+    <Text style={{ fontSize: 12, paddingBottom: 10 }}>Default State</Text>
+    <ButtonSmart
+      style={{ flexDirection: 'row' }}>
+      <Image resizeMode="contain" source={require('../assets/images/icon_heart_white.png')}  style={{ width: 18, height: 18, marginRight: 10 }} />
+      <Text style={{ fontWeight: 'bold', fontSize: 14, color: 'white' }}>Click Me !</Text>
+    </ButtonSmart>
   </DefaultView>
 )
 
 export const OnlyIcon = () => (
   <DefaultView>
-    <Avatar img={'https://i.picsum.photos/id/568/200/300.jpg?hmac=vQmkZRQt1uS-LMo2VtIQ7fn08mmx8Fz3Yy3lql5wkzM'} />
+    <Text style={{ fontSize: 18, paddingBottom: 10 }}>Button Only Icon</Text>
+    <Text style={{ fontSize: 12, paddingBottom: 10 }}>Default State</Text>
+    <ButtonSmart
+      style={{ width: 60, height: 60, justifyContent: 'center', alignItems: 'center' }}>
+      <Image resizeMode="contain" source={require('../assets/images/icon_heart_white.png')}  style={{ width: 30, height: 30 }} />
+    </ButtonSmart>
   </DefaultView>
 )
